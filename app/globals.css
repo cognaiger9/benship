@@ -1,26 +1,82 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-brand: #1e5a50;
+  --color-brand-hover: #17453e;
+  --color-brand-active: #123a34;
+  --color-brand-tint: #dceae5;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-accent: #d57e4e;
+  --color-accent-tint: #f6e3d5;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-cream: #faf6ef;
+  --color-card: #fffdfa;
+  --color-sunken: #f4eee3;
+
+  --color-ink: #211d19;
+  --color-ink-2: #4a433c;
+  --color-ink-3: #7a7168;
+  --color-inverse: #fbf6ee;
+
+  --color-line: #e7dfd3;
+
+  --color-good: #2f7a57;
+  --color-caution: #b8862b;
+  --color-poor: #b4553f;
+
+  --font-serif: var(--font-newsreader), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-hanken), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-mono: var(--font-plex-mono), "SF Mono", ui-monospace, monospace;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hand-rolled prose styling for the legal pages (privacy / terms). */
+.legal {
+  color: var(--color-ink-2);
+  line-height: 1.7;
+}
+.legal h2 {
+  font-family: var(--font-serif);
+  color: var(--color-ink);
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.legal h3 {
+  font-family: var(--font-serif);
+  color: var(--color-ink);
+  font-size: 1.15rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.legal p {
+  margin-bottom: 1rem;
+}
+.legal ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.legal li {
+  margin-bottom: 0.4rem;
+}
+.legal a {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.legal a:hover {
+  color: var(--color-brand-hover);
+}
+.legal strong {
+  color: var(--color-ink);
+  font-weight: 600;
 }
