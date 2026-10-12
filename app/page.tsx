@@ -32,14 +32,26 @@ export default function Home() {
             name="75 Hard Challenge Day Tracker"
             tagline="Run a 75-day challenge on Hard, Soft, or your own rules."
           />
+          <AppCard
+            href="/roomplanner"
+            icon="/roomplanner-icon.png"
+            name="Room Planner: AI Home Design"
+            tagline="Redesign a real room from one photo while keeping its layout. Coming soon."
+          />
+          <AppCard
+            href="/coinid"
+            icon="/coinid-icon.png"
+            name="Coin ID: Coin Identifier"
+            tagline="Identify coins from front and back photos, then confirm and save your finds - coming soon"
+          />
         </div>
         <p className="mt-8 text-sm text-ink-3">
           More apps on the way. Reach me at{" "}
           <a
-            href="mailto:benjamintr@benjamintr.com"
+            href="mailto:ngoctruonggia@gmail.com"
             className="text-brand hover:text-brand-hover transition-colors"
           >
-            benjamintr@benjamintr.com
+            ngoctruonggia@gmail.com
           </a>
           .
         </p>

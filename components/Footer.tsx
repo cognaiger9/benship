@@ -6,6 +6,8 @@ import { Container } from "./Container";
 const apps = [
   { name: "TalksyAI", href: "/talksyai" },
   { name: "75 Challenge", href: "/75challenge" },
+  { name: "Room Planner", href: "/roomplanner" },
+  { name: "Coin ID", href: "/coinid" },
 ];
 
 export function Footer() {
@@ -18,7 +20,7 @@ export function Footer() {
               Home
             </Link>
             <a
-              href="mailto:benjamintr@benjamintr.com"
+              href="mailto:ngoctruonggia@gmail.com"
               className="text-ink-2 hover:text-brand transition-colors"
             >
               Contact

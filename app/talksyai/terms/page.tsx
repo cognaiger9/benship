@@ -124,7 +124,7 @@ export default function TermsOfService() {
       <h2>Contact</h2>
       <p>
         Questions about these Terms? Email us at{" "}
-        <a href="mailto:benjamintr@benjamintr.com">benjamintr@benjamintr.com</a>.
+        <a href="mailto:ngoctruonggia@gmail.com">ngoctruonggia@gmail.com</a>.
       </p>
     </LegalPage>
   );

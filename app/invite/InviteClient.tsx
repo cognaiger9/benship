@@ -48,7 +48,7 @@ export default function InviteClient() {
         <a href="https://apps.apple.com/app/id6788652357" className="min-h-12 rounded-2xl bg-brand px-6 py-4 text-center font-semibold text-inverse transition-colors hover:bg-brand-hover">Get 75 Challenge</a>
         <div className="space-y-4 text-sm text-ink-2">
           <p>After installing or updating, reopen your friend’s original link or enter this code in Friends</p>
-          <p>You both approve sharing before progress is visible. Photos and task details stay private</p>
+          <p>You both approve sharing before progress is visible. With current-day sharing enabled by both friends, today's tasks and progress photo are visible too. Previous days stay private</p>
           <p>Invitations expire after seven days. Each person follows the app’s subscription requirements</p>
         </div>
       </article>

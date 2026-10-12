@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: "%s — Ben",
   },
   description:
-    "The home base for the iOS apps I build. Currently: AI Mock Interview – TalksyAI and 75 Hard Challenge Day Tracker.",
+    "The home base for the iOS apps I build: TalksyAI, 75 Hard Challenge Day Tracker, Room Planner: AI Home Design, and Coin ID: Coin Identifier.",
 };
 
 export default function RootLayout({

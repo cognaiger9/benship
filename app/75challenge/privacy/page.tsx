@@ -90,9 +90,13 @@ export default function PrivacyPolicy() {
       <p>
         Progress photos you capture are stored on your device and, when you are
         signed in, are also uploaded to a private cloud storage bucket so they
-        sync across your devices. Photos are never made public and are only
-        accessible to you, via time-limited, authenticated links. We do not use
-        your photos for advertising or to train machine learning models.
+        sync across your devices. Photos are never made public. If you and an
+        accepted friend both enable current-day sharing, that friend can also
+        view your current-day progress photo, task names, targets, and completion
+        status. Previous days are not shared. Turning off sharing, removing a
+        friend, or blocking them prevents further access through Friends. This
+        cannot erase information they already viewed or saved. We do not use
+        your photos for advertising or to train machine learning models
       </p>
 
       <h2>Data storage and security</h2>
@@ -184,7 +188,7 @@ export default function PrivacyPolicy() {
       <h2>Contact</h2>
       <p>
         Questions about this policy? Email us at{" "}
-        <a href="mailto:benjamintr@benjamintr.com">benjamintr@benjamintr.com</a>.
+        <a href="mailto:ngoctruonggia@gmail.com">ngoctruonggia@gmail.com</a>.
       </p>
     </LegalPage>
   );
